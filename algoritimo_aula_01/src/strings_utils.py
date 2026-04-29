@@ -7,8 +7,18 @@ def analisar_string(texto: str):
         'minusculo': texto.lower()
  }
 
-def main():
-    analisar_string()
+def inverter_string(texto: str):
+    tamanho_texto_positvo = len(texto)
+    tamanho_texto_negativo = (len(texto) * (-1)) - 1
+    texto_invertido = []
+    
+    #for i in range(tamanho_texto_positvo):
+
+    #    texto_invertido.append(tamanho_texto_negativo)
+    #    tamanho_texto_negativo -= 1
+    #print(texto_invertido)
+
+
 
 if __name__ == '__main__':
-    main()
+    print('É uma lib')
