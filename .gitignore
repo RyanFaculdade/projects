@@ -1,1 +1,4 @@
 .venv*
+
+algoritimo_01/src/__pycache__/
+*.pyc
